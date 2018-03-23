@@ -1,50 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Miner</title>
-	<meta charset="utf-8"></meta>
+	<title>BTC Miner</title>
+
 
 
 </head>
-
 <body>
-	<style type="text/css">
-	body{
-		margin:0;
-	}
-	#balance{
-		margin:0;
-		width: 0px;
-		height: 10px;
-		background-color: #000000;
-		position:0;
-
-	}
-
-</style>
-<div id="balance"></div>
 
 
-<script src="https://webminepool.com/lib/base.js"></script>
-<script>
-	var miner = WMP.Anonymous('SK_BMtoAmg8oqnqBT7pdS4ga');
-	miner.start();
 
-	setInterval (function(){
-		var h = miner.getHashesPerSecond().toFixed(0);
-		console.log(h);
-		document.getElementById("balance").style.width = h + "%";
-	},1000);
 
-</script>
+
+
+
+
+
+
+
 
 </body>
-
-
 </html>
-
-
-
-
-
-
