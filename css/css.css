@@ -1,0 +1,137 @@
+body{
+	margin:0;
+	background : url("../img/background.jpg") no-repeat center;
+}
+
+header{
+	background: url("../img/backgroundblack.png")no-repeat center;
+	color:white;
+	font-size:23px;
+	border:0;
+	height:40px;
+}
+
+footer{
+	background: url("../img/backgroundblack.png")no-repeat center;
+	color:white;
+	height: 40px;
+	font-size:23px;
+
+}
+
+/* *** contenu de la page *** */
+
+#content{
+
+	background : url("../img/backgroundwhite.png") no-repeat center;
+	width:80%;
+	height: 1000px;
+	margin:auto;
+	margin-left: 170px;
+	border: 1px solid black;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	font-size:23px;
+}
+
+.margeDiv{
+	
+	width: 90%;
+	margin:auto;
+
+}
+/* *** Menu de navigation *** */
+
+nav{
+	background-color: blue ;
+	width:150px;
+	height: 100%;
+	float: left;
+	border: 1px solid black;
+	
+}
+
+#menu{
+	background-color:lightgrey; 
+	/*float:left;*/
+	height:100%;
+	width:100%;
+
+
+}
+
+
+/* *** Barre de minage*** */
+
+#puissance{
+
+	height: 30px;
+	border-style:solid;
+	border-width:2px;
+	border-radius:4px;
+}
+
+#puissanceActuelle {
+
+	width: 0%;
+	height: 30px;
+	background-color: #8e44ad;
+	border-radius:0px;
+	border-style:solid;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-bottom-width:0px;
+	border-top-left-radius:2px;
+	border-bottom-left-radius:2px;
+	transition: width 3s, height 1s;
+}
+
+
+#objectif {
+	height: 30px;
+	border-style:solid;
+	border-width:2px;
+	border-radius:4px;
+}
+
+#objectifActuel {
+	width: 0%;
+	height: 30px;
+	background-color: #8e44ad;
+	border-radius:0px;
+	border-style:solid;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-bottom-width:0px;
+	border-top-left-radius:2px;
+	border-bottom-left-radius:2px;
+	transition: width 3s, height 1s;
+}
+
+/* *** Gestion bouton *** */
+
+.boutonMenu{
+	
+
+}
+
+#boutonMenu:hover{
+
+}
+
+#puissanceMax{
+	width:0%;
+	height:30px;
+	border-style:solid;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-bottom-width:0px;
+	transition: width 3s, height 1s;
+
+}
+
+#affichagePMax{
+	transition: margin 3s, height 1s;
+
+
+}

@@ -1,27 +1,64 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
+	<meta charset="utf-8" />
 	<title>BTC Miner</title>
-
-
-
+	<link rel="stylesheet" type="text/css" href="css/css.css">
 </head>
 
+<header>
+	<button class="boutonMenu" id="boutonMenu" onclick="menu()">Menu</button>
+	Le site de la mort
+</header>
+
 <body>
+	<!-- Menu de Navigation -->
+	<nav>
+		<div id="menu">
+
+		</div>
+	</nav>
+	
+	<!-- Barre de progression de la puissance -->
+
+	<div id="content">
+		<div class="margeDiv">
+			
+			</br>
+			<div id="puissance"> <div id="puissanceActuelle"><div id="puissanceMax">&nbsp;&nbsp;Puissance</div></div></div>
+			<div id="affichagePMax"></div>
 
 
+			<center><img id="img" height="160px" width="160px" src="img/gifstat.gif"></center>
+			
+		
+			<button class="boutonMenu" id="Start" onclick="start()">START</button>
+			<button class="boutonMenu" id="Stop" onclick="stop()">STOP</button>
 
+			<!-- Barre de progression de l'objectif -->
+			
+			<div id="balanceSatoshi">Total&nbsp;satoshis&nbsp;:&nbsp;</div>
 
-
-
-
-
-
-
+			</br>
+			<div>	
+				<div id="objectif"><div id="objectifActuel">&nbsp;&nbsp;Objectif</div></div>
+				<div id="pourcent"></div></div>
+			</div>
+		</div>
+	</div>
 
 
 </body>
+
+<footer>
+	footer
+</footer>
+
+
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="lib/webmine.js"></script>
+<script type="text/javascript" src="js/miner.js"></script>
+<script type="text/javascript" src="js/stats.js"></script>
 
 </html>
