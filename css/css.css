@@ -12,10 +12,10 @@ header{
 }
 
 footer{
-	background: url("../img/backgroundblack.png")no-repeat center;
+	background: url("../img/footer.gif")no-repeat center;
 	color:white;
-	height: 40px;
-	font-size:23px;
+	height: 75px;
+	font-size:20px;
 
 }
 
@@ -23,19 +23,17 @@ footer{
 
 #content{
 
-	background : url("../img/backgroundwhite.png") no-repeat center;
 	width:80%;
 	height: 1000px;
 	margin:auto;
 	margin-left: 170px;
-	border: 1px solid black;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
 	font-size:23px;
 }
 
 .margeDiv{
-	
+
 	width: 90%;
 	margin:auto;
 
@@ -45,7 +43,7 @@ footer{
 nav{
 	background-color: blue ;
 	width:150px;
-	height: 100%;
+	height:700px;
 	float: left;
 	border: 1px solid black;
 	
@@ -135,3 +133,21 @@ nav{
 
 
 }
+#stats{
+	background : url("../img/backgroundwhite.png") no-repeat center;
+	height:200px;
+
+}
+#miner{
+	background : url("../img/backgroundwhite.png") no-repeat center;
+
+
+}
+.titre{
+	background : url("../img/backgroundblack.png") no-repeat center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:white;
+}
+
+
